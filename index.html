@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Kelulusan - SMP Negeri 2 Situbondo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 550px;
+        }
+
+        /* Kop Sekolah */
+        .kop-surat {
+            display: flex;
+            align-items: center;
+            border-bottom: 3px double #333;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .logo-sekolah {
+            width: 70px;
+            height: 70px;
+            margin-right: 15px;
+            object-fit: contain;
+        }
+
+        .header-teks {
+            flex: 1;
+            text-align: center;
+        }
+
+        .header-teks h1 {
+            font-size: 18px;
+            color: #111;
+            text-transform: uppercase;
+        }
+
+        .header-teks h2 {
+            font-size: 16px;
+            color: #222;
+            margin-bottom: 2px;
+        }
+
+        .header-teks p {
+            font-size: 11px;
+            color: #555;
+        }
+
+        .countdown-container {
+            background: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        #timer {
+            font-size: 20px;
+            margin-top: 5px;
+            color: #721c24;
+            letter-spacing: 1px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input[type="text"], input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #155724;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #0c3e19;
+        }
+
+        button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+
+        .result-box {
+            margin-top: 25px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fafafa;
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .result-box h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .table-biodata {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .table-biodata td {
+            padding: 6px 0;
+            color: #333;
+            vertical-align: top;
+        }
+
+        .table-biodata td:first-child {
+            width: 40%;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .status {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        .lulus {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .tidak-lulus {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .error-message {
+            color: #721c24;
+            background-color: #f8d7da;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+            margin-top: 15px;
+            display: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="kop-surat">
+        <img class="logo-sekolah" src="https://scontent.fsub32-1.fna.fbcdn.net/v/t39.30808-6/707656198_970429015609428_536406211330481030_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGUdCzG8B_mi1DE-ymUjoSI2e87Epqi0E7Z7zsSmqLQTn3xrR7qxpw9djliNuJ7sIN1HPWhxaHA_ArPWmGh2rbB&_nc_ohc=IKOO2TU4noQQ7kNvwFv4UNo&_nc_oc=AdqyMt_uvxTvdvlwtfPScJlpJ7ijDxd6oH0Rm8mVJCHzlFuySJOxe8o9JlbmshLv-C4&_nc_zt=23&_nc_ht=scontent.fsub32-1.fna&_nc_gid=wIVKhAnNZ_IPhH0Lw05ohw&_nc_ss=7b2a8&oh=00_Af7HUKPAFGUIXB_I_gDYR6cE14bFF0OBuJYQnWYnqOfqwg&oe=6A19B72D" alt="Logo Sekolah">
+        <div class="header-teks">
+            <h2>PEMERINTAH KABUPATEN SITUBONDO</h2>
+            <h1>SMP NEGERI 2 SITUBONDO</h1>
+            <p>Jl. Raya Bondowoso No. 13 Kotakan, Situbondo, Jawa Timur</p>
+        </div>
+    </div>
+    
+    <div class="countdown-container" id="countdown-box">
+        <div>Pengumuman Kelulusan Dibuka Dalam:</div>
+        <div id="timer">Memuat Hitung Mundur...</div>
+    </div>
+    
+    <div class="form-group">
+        <label for="nama">Nama Lengkap Siswa:</label>
+        <input type="text" id="nama" placeholder="Masukkan Nama Sesuai Ijazah" disabled>
+    </div>
+    
+    <div class="form-group">
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" disabled>
+    </div>
+    
+    <button id="btn-cek" onclick="cekKelulusan()" disabled>Menunggu Waktu Pengumuman</button>
+
+    <div id="error" class="error-message">Data tidak ditemukan! Pastikan nama lengkap dan tanggal lahir sudah sesuai.</div>
+
+    <div id="result" class="result-box">
+        <h3>Biodata Hasil Kelulusan</h3>
+        <hr style="margin-bottom: 15px; border: 0; border-top: 1px dashed #ccc;">
+        
+        <table class="table-biodata">
+            <tr>
+                <td>Nama Lengkap</td>
+                <td id="res-nama">: -</td>
+            </tr>
+            <tr>
+                <td>NIPD</td>
+                <td id="res-nipd">: -</td>
+            </tr>
+            <tr>
+                <td>NISN</td>
+                <td id="res-nisn">: -</td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td id="res-kelas">: -</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td id="res-jk">: -</td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td id="res-ttl">: -</td>
+            </tr>
+            <tr>
+                <td>Nama Ibu Kandung</td>
+                <td id="res-ibu">: -</td>
+            </tr>
+        </table>
+
+        <div id="res-status" class="status"></div>
+    </div>
+</div>
+
+<script>
+    // DATA DATABASE SISWA (Silakan salin data dari Excel Anda ke struktur di bawah ini)
+    const dataSiswa = [
+        {
+            nama: "Budi Santoso",
+            tanggalLahir: "2010-05-12", // Format pencarian (YYYY-MM-DD)
+            nipd: "232407001",
+            nisn: "0102345678",
+            kelas: "IX-A",
+            jk: "Laki-laki",
+            tempatLahir: "Situbondo",
+            namaIbu: "Siti Aminah",
+            status: "LULUS"
+        },
+        {
+            nama: "Roro Kidul",
+            tanggalLahir: "2010-08-20",
+            nipd: "232407002",
+            nisn: "0108765432",
+            kelas: "IX-C",
+            jk: "Perempuan",
+            tempatLahir: "Situbondo",
+            namaIbu: "Ratih Sukma",
+            status: "LULUS"
+        },
+        {
+            nama: "Iwan Fals",
+            tanggalLahir: "2009-12-01",
+            nipd: "232407003",
+            nisn: "0091122334",
+            kelas: "IX-B",
+            jk: "Laki-laki",
+            tempatLahir: "Surabaya",
+            namaIbu: "Megawati",
+            status: "TIDAK LULUS"
+        },
+        {
+            "nama": "ADHITYA DHARMA MERTHA",
+            "tanggalLahir": "2010-07-19",
+            "nipd": "3710",
+            "nisn": "0106796149",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Fronicha Kuswandi",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ADI MAULANA ISHAK",
+            "tanggalLahir": "2011-02-26",
+            "nipd": "3711",
+            "nisn": "0119367142",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "IKE NURJANNAH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ADITYA BRAHMAN SYAH",
+            "tanggalLahir": "2010-12-06",
+            "nipd": "3712",
+            "nisn": "0104068220",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Arwiyatun",
+            "status": "LULUS"
+        },
+        {
+            "nama": "AZALEA AURA CAHYA",
+            "tanggalLahir": "2010-03-31",
+            "nipd": "3722",
+            "nisn": "0101037672",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Syamsiyeh",
+            "status": "LULUS"
+        },
+        {
+            "nama": "BERLIAN PUTRI FARADILA",
+            "tanggalLahir": "2010-06-19",
+            "nipd": "3723",
+            "nisn": "0103140836",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "ERMA SURYANI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "BILAL KURNIAWAN",
+            "tanggalLahir": "2010-04-13",
+            "nipd": "3724",
+            "nisn": "0104071998",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "FITRIYA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "CITRA AULIA PUTRI",
+            "tanggalLahir": "2010-05-02",
+            "nipd": "3727",
+            "nisn": "0106034979",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "BONDOWOSO",
+            "namaIbu": "YULIANA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "DERY RAGASTA",
+            "tanggalLahir": "2011-02-10",
+            "nipd": "3729",
+            "nisn": "0115911786",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Rudiyah",
+            "status": "LULUS"
+        },
+        {
+            "nama": "DWI CAHYANI RIMADHANI",
+            "tanggalLahir": "2011-01-14",
+            "nipd": "3733",
+            "nisn": "0116663279",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Asiyati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "DWI IZMIL RIZKI ANJARWATI",
+            "tanggalLahir": "2010-07-10",
+            "nipd": "3734",
+            "nisn": "0108505519",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Iva Nur Fatmawati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "FATHIR ADITYA PRATAMA",
+            "tanggalLahir": "2011-01-16",
+            "nipd": "3736",
+            "nisn": "0118102298",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Banyuwangi",
+            "namaIbu": "DWI ULFIANA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "GILANG DZIKRIANSYAH",
+            "tanggalLahir": "2010-09-01",
+            "nipd": "3739",
+            "nisn": "0107156502",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "DENY SURYA ANDARI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "HOLIFATUN AINI",
+            "tanggalLahir": "2010-06-10",
+            "nipd": "3741",
+            "nisn": "0109431635",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "LINDA SUMIARSIH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "INTAN DWI PUSPITA SARI",
+            "tanggalLahir": "2010-10-30",
+            "nipd": "3744",
+            "nisn": "0103148697",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "Pasuruan",
+            "namaIbu": "Suni Yuliani",
+            "status": "LULUS"
+        },
+        {
+            "nama": "JESSICA NUR AISYAH ANDRILA",
+            "tanggalLahir": "2010-06-28",
+            "nipd": "3745",
+            "nisn": "0101656424",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "NORLAILA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "LEDIANSYAH RAVA HENDRAWINATA",
+            "tanggalLahir": "2011-05-18",
+            "nipd": "3748",
+            "nisn": "0119117087",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Nita Irawati Kartini",
+            "status": "LULUS"
+        },
+        {
+            "nama": "M.ISHAQ MAULANA SIDDIQ",
+            "tanggalLahir": "2010-04-01",
+            "nipd": "3749",
+            "nisn": "0108564826",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "ERTININGSIH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MARETA DEWI YATIMA",
+            "tanggalLahir": "2011-03-24",
+            "nipd": "3750",
+            "nisn": "0113897143",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Supiyani",
+            "status": "LULUS"
+        },
+        {
+            "nama": "NADIFA IZZATUN NAFQIA",
+            "tanggalLahir": "2010-09-21",
+            "nipd": "3760",
+            "nisn": "0102262914",
+            "kelas": "9A",
+            "jk": "Perempuan",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "EVI DATUL MUSAROFAH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "QISYA NANDA GHOFUR",
+            "tanggalLahir": "2011-01-31",
+            "nipd": "3768",
+            "nisn": "3116136281",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "DESY RATNASARI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RADIKA SYA'BANI HERDA RIANSYAH",
+            "tanggalLahir": "2011-07-06",
+            "nipd": "3769",
+            "nisn": "0112665401",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "SURAIDA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RADIT SAPUTRA",
+            "tanggalLahir": "2011-01-29",
+            "nipd": "3770",
+            "nisn": "0115460222",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "HENI ERNAWATI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RAFKA MARVIN PRAMANA",
+            "tanggalLahir": "2010-03-08",
+            "nipd": "3771",
+            "nisn": "0101112281",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Watik",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RAY ENDA RENALDI",
+            "tanggalLahir": "2010-05-08",
+            "nipd": "3773",
+            "nisn": "0101013293",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Seniwani",
+            "status": "LULUS"
+        },
+        {
+            "nama": "TEGAR TRI PRASETYO",
+            "tanggalLahir": "2011-05-08",
+            "nipd": "3785",
+            "nisn": "0116294424",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Eny Herawati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ZEINUR ROSYID",
+            "tanggalLahir": "2011-07-29",
+            "nipd": "3789",
+            "nisn": "0118439802",
+            "kelas": "9A",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Hernawati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "AFRIDO FEBRI KURNIAWAN",
+            "tanggalLahir": "2011-02-23",
+            "nipd": "3714",
+            "nisn": "0116561225",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "RINDA YANI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "AGUS RAMDAN",
+            "tanggalLahir": "2010-08-18",
+            "nipd": "3715",
+            "nisn": "0101938440",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "NUR JANNAH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "AJI CAHYA ANAMIFTA",
+            "tanggalLahir": "2010-12-21",
+            "nipd": "3716",
+            "nisn": "0105130586",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "SAHWANI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ALIF EKA WANDA PUTRA JANUAR",
+            "tanggalLahir": "2011-01-12",
+            "nipd": "3717",
+            "nisn": "0118068612",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Januari Indah Mawarni",
+            "status": "LULUS"
+        },
+        {
+            "nama": "DESTI HARIYONO",
+            "tanggalLahir": "2011-12-30",
+            "nipd": "3730",
+            "nisn": "0111623851",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Susiyana",
+            "status": "LULUS"
+        },
+        {
+            "nama": "DHIVY MAULIDYA ERIANTY",
+            "tanggalLahir": "2011-02-09",
+            "nipd": "3731",
+            "nisn": "0115638083",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Evi Fatmawati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "FELIANA PUTRI RAMADHANI",
+            "tanggalLahir": "2010-09-03",
+            "nipd": "3737",
+            "nisn": "0108002227",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "JEMBER",
+            "namaIbu": "RANI NOVIANA WIJAYANTI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "GUSTI RAMADHAN FIRMANSYAH",
+            "tanggalLahir": "2010-08-15",
+            "nipd": "3740",
+            "nisn": "0104669975",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "ENDANG ERNAWATI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "IBNU GILANG RAMADHAN",
+            "tanggalLahir": "2010-09-04",
+            "nipd": "3742",
+            "nisn": "0106210699",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Lilik Sugiarti",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ICHA NAHTANIA",
+            "tanggalLahir": "2010-06-23",
+            "nipd": "3743",
+            "nisn": "0102332473",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "PRIHATIN",
+            "status": "LULUS"
+        },
+        {
+            "nama": "KAFKA NASYIFA AULIA",
+            "tanggalLahir": "2010-06-23",
+            "nipd": "3746",
+            "nisn": "0106289535",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "SUNAINI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MOH. FIRMAN SAMSURI",
+            "tanggalLahir": "2011-05-23",
+            "nipd": "3751",
+            "nisn": "0111115373",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Asiyawati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MOHAMMAD AKHSANUN NAILILLAH",
+            "tanggalLahir": "2010-10-10",
+            "nipd": "3752",
+            "nisn": "0106649232",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "MISYANI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MUHAMMAD AFAN HENDRIAWAN",
+            "tanggalLahir": "2010-07-03",
+            "nipd": "3753",
+            "nisn": "0105969529",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Bondowoso",
+            "namaIbu": "RINDI DWI ANTIKA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MUHAMMAD DWI FARDAN",
+            "tanggalLahir": "2009-07-24",
+            "nipd": "3754",
+            "nisn": "0118300874",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "ISA ISTIARDI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MUHAMMAD IRSAN DERMAWAN",
+            "tanggalLahir": "2011-03-15",
+            "nipd": "3755",
+            "nisn": "0118151359",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Ira Tri Agustin",
+            "status": "LULUS"
+        },
+        {
+            "nama": "NAURIYAH CHINTYA SARI",
+            "tanggalLahir": "2011-07-17",
+            "nipd": "3762",
+            "nisn": "0114804394",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Novi Andari",
+            "status": "LULUS"
+        },
+        {
+            "nama": "NAYLA ASIFA ZAHRA",
+            "tanggalLahir": "2011-05-27",
+            "nipd": "3763",
+            "nisn": "0116329255",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Ani Efana",
+            "status": "LULUS"
+        },
+        {
+            "nama": "NIKITA SERLY",
+            "tanggalLahir": "2011-10-26",
+            "nipd": "3764",
+            "nisn": "0113377612",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Eni Kasiyani",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RAMADANI PUTRA",
+            "tanggalLahir": "2010-08-11",
+            "nipd": "3772",
+            "nisn": "0109997724",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "SAHRIYANI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RENDI ARDINATA SAPUTRA",
+            "tanggalLahir": "2011-10-28",
+            "nipd": "3774",
+            "nisn": "0114999160",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Seniwati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RIFKY KHOLIFATUR ROSIDI",
+            "tanggalLahir": "2011-10-19",
+            "nipd": "3776",
+            "nisn": "0119597054",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Ani Diana Puji",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RIFKY NURUL REVAN",
+            "tanggalLahir": "2010-03-23",
+            "nipd": "3777",
+            "nisn": "0108288032",
+            "kelas": "9B",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "NUR HALIMA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "SARIFATUL AINI",
+            "tanggalLahir": "2011-07-06",
+            "nipd": "3783",
+            "nisn": "0113871994",
+            "kelas": "9B",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Sahwati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "AFLAH SANJAYA",
+            "tanggalLahir": "2010-07-21",
+            "nipd": "3713",
+            "nisn": "0101149384",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "SUTRIANI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ALIF MAULANA PASHA",
+            "tanggalLahir": "2010-04-06",
+            "nipd": "3718",
+            "nisn": "0102357326",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Sidoarjo",
+            "namaIbu": "Sofi Asfiyuni",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ANANDA JESIKA PRASETYA",
+            "tanggalLahir": "2011-05-21",
+            "nipd": "3719",
+            "nisn": "0111979003",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Subaida",
+            "status": "LULUS"
+        },
+        {
+            "nama": "APRILIANA SAFITRI",
+            "tanggalLahir": "2011-04-24",
+            "nipd": "3720",
+            "nisn": "0111571109",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "NURUL SITI FATIMA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ARDIANSYAH PUTRA PRATAMA",
+            "tanggalLahir": "2011-10-04",
+            "nipd": "3721",
+            "nisn": "0114349973",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Winarti",
+            "status": "LULUS"
+        },
+        {
+            "nama": "BAYU SEPTIA PRANATA",
+            "tanggalLahir": "2009-09-26",
+            "nipd": "3792",
+            "nisn": "0093853502",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "ILA MASITA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "BIMANTARA BAGUS ADI BIJAKSONO",
+            "tanggalLahir": "2010-08-21",
+            "nipd": "3725",
+            "nisn": "0109572917",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "ENDANG SULISTIYANI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "BUNGA NABILA MAFTUHATUL HIDAYAH",
+            "tanggalLahir": "2011-07-11",
+            "nipd": "3726",
+            "nisn": "0115928892",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Astutik",
+            "status": "LULUS"
+        },
+        {
+            "nama": "DELVINO PUTRA LANGIT WIBOWO",
+            "tanggalLahir": "2010-12-13",
+            "nipd": "3728",
+            "nisn": "0101448484",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "SRI WAHYUNI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "DIMAS ALFIANSYAH",
+            "tanggalLahir": "2011-06-04",
+            "nipd": "3732",
+            "nisn": "0113033562",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "FAIDA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "FATAN MAULANA",
+            "tanggalLahir": "2011-03-31",
+            "nipd": "3735",
+            "nisn": "0112731004",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Lisa Tarsih",
+            "status": "LULUS"
+        },
+        {
+            "nama": "FITRI RAMADHANI",
+            "tanggalLahir": "2011-09-09",
+            "nipd": "3738",
+            "nisn": "0115711099",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "OLIF VIANSYAH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "KENZIE VELANIA PURWANTISTA PUTRI",
+            "tanggalLahir": "2011-05-08",
+            "nipd": "3747",
+            "nisn": "0118874937",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Evi Sri Istiqomalia",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MUHAMMAD NABIL",
+            "tanggalLahir": "2011-07-08",
+            "nipd": "3756",
+            "nisn": "0118101201",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Heni",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MUHAMMAD REVAN",
+            "tanggalLahir": "2010-11-04",
+            "nipd": "3757",
+            "nisn": "0104916828",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Lina Yuliatin",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MUHAMMAD RHIDO NUR AKASHA",
+            "tanggalLahir": "2011-02-06",
+            "nipd": "3758",
+            "nisn": "0115329209",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Maimuna",
+            "status": "LULUS"
+        },
+        {
+            "nama": "MUHAMMAD YASIN",
+            "tanggalLahir": "2011-12-20",
+            "nipd": "3759",
+            "nisn": "0113952392",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Misyati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "NUR RIFQIYA PRAMITA",
+            "tanggalLahir": "2011-05-29",
+            "nipd": "3765",
+            "nisn": "0116798522",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "NURYANTI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "NURHALIMAH",
+            "tanggalLahir": "2010-11-27",
+            "nipd": "3766",
+            "nisn": "0102995155",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "ROFIAH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "PUTRI NOVA DAMAYANTI",
+            "tanggalLahir": "2010-01-28",
+            "nipd": "3767",
+            "nisn": "0109346071",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Minawati",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RIKO DWI ANDIKA",
+            "tanggalLahir": "2009-08-23",
+            "nipd": "3778",
+            "nisn": "0092522959",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "SITUBONDO",
+            "namaIbu": "ARTIWA",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RISKI ADITYA",
+            "tanggalLahir": "2010-12-23",
+            "nipd": "3779",
+            "nisn": "0108612883",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "ROSIDAH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "RISKY SYAIFULLAH",
+            "tanggalLahir": "2011-07-04",
+            "nipd": "3780",
+            "nisn": "0111456660",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Jember",
+            "namaIbu": "SITI ASIZAH",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ROFIK HADI ANSYAH",
+            "tanggalLahir": "2010-06-20",
+            "nipd": "3781",
+            "nisn": "0106655975",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "MUNIATI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "SAMRIL ANDRIYANSYAH",
+            "tanggalLahir": "2010-07-24",
+            "nipd": "3782",
+            "nisn": "0106163969",
+            "kelas": "9C",
+            "jk": "Laki-laki",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "AYU SUGI WARSINI",
+            "status": "LULUS"
+        },
+        {
+            "nama": "SINAR SAVA OKTAVIA",
+            "tanggalLahir": "2010-10-11",
+            "nipd": "3784",
+            "nisn": "0109268797",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "Nurul Fatimah",
+            "status": "LULUS"
+        },
+        {
+            "nama": "ZAURA DIRA TRITASIGO",
+            "tanggalLahir": "2010-12-25",
+            "nipd": "3788",
+            "nisn": "0109197257",
+            "kelas": "9C",
+            "jk": "Perempuan",
+            "tempatLahir": "Situbondo",
+            "namaIbu": "SATRIA",
+            "status": "LULUS"
+        }
+    ];
+
+    // PENGATURAN WAKTU BUKA: 02 Juni 2026 pukul 05.00 WIB (+07:00)
+    const targetDate = new Date("2026-06-02T08:00:00+07:00").getTime();
+
+    const countdownInterval = setInterval(function() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("timer").innerHTML = days + " Hari " + hours + " Jam " 
+        + minutes + " Menit " + seconds + " Detik ";
+
+        if (distance < 0) {
+            clearInterval(countdownInterval);
+            
+            document.getElementById("countdown-box").style.backgroundColor = "#d4edda";
+            document.getElementById("countdown-box").style.borderColor = "#c3e6cb";
+            document.getElementById("countdown-box").style.color = "#155724";
+            document.getElementById("countdown-box").innerHTML = "Pengumuman Resmi Dibuka! Silakan Cek Data Anda.";
+
+            document.getElementById("nama").disabled = false;
+            document.getElementById("tanggal_lahir").disabled = false;
+            
+            const btn = document.getElementById("btn-cek");
+            btn.disabled = false;
+            btn.innerText = "Periksa Status Kelulusan";
+        }
+    }, 1000);
+
+    function cekKelulusan() {
+        const inputNama = document.getElementById('nama').value.trim();
+        const inputTanggal = document.getElementById('tanggal_lahir').value;
+
+        const resultBox = document.getElementById('result');
+        const errorBox = document.getElementById('error');
+
+        resultBox.style.display = "none";
+        errorBox.style.display = "none";
+
+        if(inputNama === "" || inputTanggal === "") {
+            alert("Mohon isi Nama dan Tanggal Lahir terlebih dahulu!");
+            return;
+        }
+
+        const siswaDitemukan = dataSiswa.find(siswa => 
+            siswa.nama.toLowerCase() === inputNama.toLowerCase() && 
+            siswa.tanggalLahir === inputTanggal
+        );
+
+        if (siswaDitemukan) {
+            document.getElementById('res-nama').innerText = ": " + siswaDitemukan.nama;
+            document.getElementById('res-nipd').innerText = ": " + siswaDitemukan.nipd;
+            document.getElementById('res-nisn').innerText = ": " + siswaDitemukan.nisn;
+            document.getElementById('res-kelas').innerText = ": " + siswaDitemukan.kelas;
+            document.getElementById('res-jk').innerText = ": " + siswaDitemukan.jk;
+            document.getElementById('res-ttl').innerText = ": " + siswaDitemukan.tempatLahir + ", " + ubahFormatTanggal(siswaDitemukan.tanggalLahir);
+            document.getElementById('res-ibu').innerText = ": " + siswaDitemukan.namaIbu;
+
+            const statusDiv = document.getElementById('res-status');
+            statusDiv.innerText = "KETERANGAN: " + siswaDitemukan.status;
+
+            if(siswaDitemukan.status === "LULUS") {
+                statusDiv.className = "status lulus";
+            } else {
+                statusDiv.className = "status tidak-lulus";
+            }
+
+            resultBox.style.display = "block";
+        } else {
+            errorBox.style.display = "block";
+        }
+    }
+
+    function ubahFormatTanggal(stringTanggal) {
+        const opsi = { year: 'numeric', month: 'long', day: 'numeric' };
+        return new Date(stringTanggal).toLocaleDateString('id-ID', opsi);
+    }
+</script>
+
+</body>
+</html>
